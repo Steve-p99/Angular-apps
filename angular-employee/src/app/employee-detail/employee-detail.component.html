@@ -1,0 +1,20 @@
+<div style="background-color: darkslategray">
+    <br>
+    <span>
+            <h2>Employee Details</h2>
+<table border="3px">
+    <thead>
+        <th>ID</th>
+        <th>NAME</th>
+        <th>DEPARTMENT</th>
+    </thead>
+    <tr *ngFor="let emp of employeeDetails">
+        <td>{{emp.id}}</td>
+        <td>{{emp.name}}</td>
+        <td>{{emp.dept}}</td>
+    </tr>
+</table>
+    </span>
+<br>
+</div>
+<hr>

@@ -1,0 +1,19 @@
+<div><h2>Employee Manager</h2>
+<input 
+    type="text" 
+    placeholder="Id"
+    [(ngModel)]="id"><br>
+<input 
+    type="text" 
+    placeholder="Name"
+    [(ngModel)]="name"><br>
+<input 
+    type="text" 
+    placeholder="Department"
+    [(ngModel)]="department"><br>
+<button (click)="addNewEmployee()">Submit</button>
+<br>
+<br>
+</div>
+<hr>
+<app-employee-detail></app-employee-detail>

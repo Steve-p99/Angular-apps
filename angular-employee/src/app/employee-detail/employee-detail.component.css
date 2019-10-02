@@ -1,0 +1,43 @@
+h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 15%;
+    color: whitesmoke;
+    -webkit-text-stroke-width: 2px;
+   -webkit-text-stroke-color: black;
+   font-size: 40px
+}
+table{
+    background-color: gold;
+    border: 5px solid black;
+    margin: 3%;
+    width: 50%;
+}
+th{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: papayawhip;
+   
+}
+td{
+    color: lime
+}
+td,th{
+    padding: 1% 0px 1% 0px;
+    font-size: 150%;
+    text-align: center;
+    width: 1%;
+    height: 1%;
+    border: 4px solid black;
+    border-radius: 10%;
+    background-color: brown;
+    
+}
+div{
+    animation: 2s fadeIn 2s forwards;
+    opacity: 0;
+}
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
